@@ -1,9 +1,4 @@
-<script type="text/javascript">
-    // More API functions here:
-    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
-
-    // the link to your model provided by Teachable Machine export panel
-    const URL = "../my_model/";
+ const URL = "../my_model/";
     let model, webcam, ctx, labelContainer, maxPredictions;
 
     async function init() {
@@ -68,4 +63,3 @@
             }
         }
     }
-</script>
