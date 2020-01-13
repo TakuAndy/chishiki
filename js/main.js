@@ -1,3 +1,1 @@
-<script>
-    alert("アラート");
-</script>
+alert("アラート");
