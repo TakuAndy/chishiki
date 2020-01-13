@@ -53,7 +53,7 @@
     }
 
   var  score0 = prediction[0].probability.toFixed(2)
-    if(score >=0.8){
+    if(score0 >=0.8){
       document.write("1だよよよ");
     }
 
