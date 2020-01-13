@@ -1,10 +1,3 @@
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
-<script type="text/javascript">
-    // More API functions here:
-    // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
-
-    // the link to your model provided by Teachable Machine export panel
     const URL = "../my_model/";
     let model, webcam, ctx, labelContainer, maxPredictions;
 
@@ -70,4 +63,3 @@
             }
         }
     }
-</script>
