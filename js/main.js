@@ -47,13 +47,12 @@
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
-
         // finally draw the poses
         drawPose(pose);
     }
 
-  var  score0 = prediction[0].probability.toFixed(2)
-    if(score >=0.8){
+const  score0 = prediction[0].probability.toFixed(2)
+    if(score >=0.80){
       document.write("1だよよよ");
     }
 
