@@ -52,6 +52,8 @@
         drawPose(pose);
     }
 
+    
+
     function drawPose(pose) {
         if (webcam.canvas) {
             ctx.drawImage(webcam.canvas, 0, 0);
