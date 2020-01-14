@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
   <script src="./js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
-  <div>Teachable Machine Pose Model</div>
-<button type="button" onclick="init()">Start</button>
-<div><canvas id="canvas"></canvas></div>
-<div id="label-container"></div>
+  <h1 class="red">宇宙一すごいWebサイト</h1>
+  <div class="inline-block_test">
+    <img src="./image/left.jpeg" alt="左の安藤" title="左の安藤">
+  </div>
+  <div class="inline-block_test">
+    <img src="./image/center.jpeg" alt="真ん中の安藤" title="真ん中の安藤">
+  </div>
+  <div class="inline-block_test">
+    <img src="./image/right.jpeg" alt="右の安藤" title="右の安藤">
+  </div>
+
+  <button type="button" onclick="init()">Start</button>
+  <div><canvas id="canvas"></canvas></div>
+  <div id="label-container"></div>
 </body>
 </html>

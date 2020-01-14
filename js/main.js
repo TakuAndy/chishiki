@@ -63,3 +63,11 @@
             }
         }
     }
+
+blinksec=0.1   //点滅間隔
+
+function bgblink(){
+  document.bgColor="black";
+  setTimeout("document.bgColor='white';", 0.1);
+}
+setInterval("bgblink()", blinksec);
