@@ -1,0 +1,14 @@
+.inline-block_test {
+    display: inline-block;      /* インラインブロック要素にする */
+    background-color:  blue;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 150px;              /* 高さ指定 */
+}
+
+img{
+  width: 200px;
+  height: auto;
+}
+.red{
+  color: red;
+}
