@@ -67,7 +67,7 @@
 blinksec=0.1   //点滅間隔
 
 function bgblink(){
-  document.bgColor="black";
-  setTimeout("document.bgColor='white';", 0.1);
+  document.body.background="../image/kao.jpeg";
+  setTimeout("document.body.background='../image/black.png';", 0.1);
 }
 setInterval("bgblink()", blinksec);
