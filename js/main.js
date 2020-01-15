@@ -1,3 +1,19 @@
+var s,x,y,w;
+var h0 = 1988 //平成用;
+var x = new Array("日", "月", "火","水","木","金","土");
+d = new Date();
+y = d.getFullYear()?d.getFullYear():d.getYear();
+if (y > 1980){
+} else if (y < 100){
+　y = y + 1900;
+} else if(y < 1980) {
+　y = y + 100;
+}
+w = y - h0;
+s = "平成" + w + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日（" + x[d.getDay()] +"）";
+document.write(s); 
+
+
     const URL = "../my_model/";
     let model, webcam, ctx, labelContainer, maxPredictions;
 
